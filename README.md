@@ -1,9 +1,9 @@
-# Project Name
+# Project Name: Lending Club
 Lending Club Case Study: Given a loan data frame and asked to comeup with some patterns using EDA concepts.
 Finally conclude some observations which can help to approve or reject loan application
 
 
-## Table of Contents
+# Table of Contents
 1. Data Analsis
 2. Data cleaning
 3. Derive new columns
@@ -22,27 +22,42 @@ Identify pattern who falls under “Charged Off’ category, still can accept th
 
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
+### "Charged Off" category:
+  1. Higher is the interst rate, more chances of applicants falling in "charged off" category
+  2. Higher is the interest rate when having low grades may fall in "charged off" categroy
+  3. Seeking loans for small business, other, house categories may fall in "charged Of" category
+  4. Up to some extent, with less income <30k and are having revol_credit score more than 30% may fall in "Charged Off" category
+  5. pub_rec having 1 and 2 and having court cases have high chances to fall in "Cahrged Off" category
+  6. Less is the income and having high interest rate have high chances to fall in "Charged Off" category
+  7. High chances of “Charged off” ration when having more bankrupt cases
+### "Fully Paid" Category: 
+  1. High risk to provide loans when having pub_rec as 1 and 2 and having court cases
+  2. High risk when revol_credit score greater than 30% and getting less income
+  3. High risk when interest rate is high for low-income people
+  4. Low risk when getting less income and having least grades
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- Jupytor Notebook
+- Python
+- Numpy
+- Pandas
+- Matplotlib
+- Seaborn
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on https://en.wikipedia.org/wiki/LendingClub
-
+### References
+-   https://www.youtube.com/watch?v=GGL6U0k8WYA
+-   https://www.youtube.com/watch?v=4DnWYK88-E4
+-   https://www.youtube.com/watch?v=Bjz00ygERxY
+-   https://medium.com/@ozan/interactive-plots-with-plotly-and-cufflinks-on-pandas-dataframes-af6f86f62d94
+-   https://pythonguides.com/what-is-matplotlib-inline/
+-   https://towardsdatascience.com/financial-data-analysis-2f86b1341e6e
+-   https://towardsdatascience.com/pandas-tips-and-tricks-33bcc8a40bb9
+-   https://www.geeksforgeeks.org/how-to-reset-index-after-groupby-pandas/
+-   https://www.w3resource.com/pandas/dataframe/dataframe-unstack.php
+-   https://towardsdatascience.com/financial-data-analysis-80ba39149126
 
 ## Contact
 Created by @ibmfagroup - feel free to contact me!
